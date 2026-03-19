@@ -13,7 +13,7 @@ import (
 	"time"
 
 	"github.com/anaminus/but"
-	"github.com/robloxapi/rbxfetch"
+	"github.com/setup-rbxcdn/rbxfetch"
 )
 
 var ExpectedFiles = []expectedFile{
