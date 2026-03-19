@@ -67,7 +67,7 @@
 						git config user.name 'Updater'
 						git add data/production
 						git diff --cached --quiet || (
-							git commit -m 'Update production files.
+							git commit -m 'Update production files.'
 							git push
 						) || true
 					",
