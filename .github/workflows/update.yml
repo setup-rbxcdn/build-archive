@@ -62,14 +62,16 @@
 				},
 				{
 					"name": "Commit and push",
+					"env": {
+						"ACCESS_TOKEN": "${{ secrets.ACCESS_TOKEN }}",
+					},
 					"run": "
-						git config user.email 'updater@build-archive'
-						git config user.name 'Updater'
-						git add data/production
-						git diff --cached --quiet || (
-							git commit -m 'Update production files.'
-							git push
-						) || true
+						git config user.email 'updater@build-archive' &&
+						git config user.name 'Updater' &&
+						git add data/production &&
+						git commit -m 'Update production files.' &&
+						git push origin master ||
+						true
 					",
 				},
 			],
