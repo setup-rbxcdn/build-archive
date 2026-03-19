@@ -63,14 +63,19 @@
 				{
 					"name": "Commit and push",
 					"run": "
-						git config user.email 'updater@build-archive' &&
-						git config user.name 'Updater' &&
-						git add data/production &&
+						git config user.email 'updater@build-archive'
+						git config user.name 'Updater'
+						git add data/production
 						git diff --cached --quiet || (
-							git commit -m 'Update production files.' &&
-							git push origin master
+							git commit -m 'Update production files.
+							git push
 						) || true
 					",
+					"with": {
+						"repository": "setup-rbxcdn/build-archive",
+						"ref": "master",
+						"token": "${{ secrets.GITHUB_TOKEN }}"
+					},
 				},
 			],
 		},
