@@ -9,3 +9,7 @@ github.com/robloxapi/rbxdhist v0.1.0 h1:zFHuAd/fYxKKRgko8giFrJE87wKbiMfkMC99IcQU
 github.com/robloxapi/rbxdhist v0.1.0/go.mod h1:LDwGu1rAliCi600a4apj6L1Uo7wiPPko+NA1RU/fHsM=
 github.com/robloxapi/rbxdump v0.3.0 h1:PhEtEkcC80y0cR2CWSs/PUp5sd5yZU0tDZiD7cFRoKU=
 github.com/robloxapi/rbxdump v0.3.0/go.mod h1:8imPIe5ZmLAhvmNKLu2E2S0QStvvXtt/0m5pxUGdGM0=
+github.com/robloxapi/rbxdump v0.5.0 h1:UX/KZ88yjYLdNUKXVB5wavuFdm4J3Z4WN7cGGwoViD8=
+github.com/robloxapi/rbxdump v0.5.0/go.mod h1:1tP6iUgzexj8MD2aZf9UkMsf9IUQHEtkgQPT18YpQGo=
+github.com/setup-rbxcdn/rbxfetch v0.0.0-20260319082758-b868f962dcc5 h1:dZqOjMP1V6RskZ9cCvjhrQqloDwJala4nbWKbyFFf+U=
+github.com/setup-rbxcdn/rbxfetch v0.0.0-20260319082758-b868f962dcc5/go.mod h1:3kNZQwA5PzXAnhcX512R+khXF4kUVyg+99+gMBEAlUM=
