@@ -59,17 +59,14 @@
 				},
 				{
 					"name": "Commit and push",
-					"env": {
-						"ACCESS_TOKEN": "${{ secrets.ACCESS_TOKEN }}",
-					},
 					"run": "
 						git config user.email 'updater@build-archive' &&
 						git config user.name 'Updater' &&
-						git remote set-url origin https://$GITHUB_ACTOR:$ACCESS_TOKEN@github.com/$GITHUB_REPOSITORY.git &&
 						git add data/production &&
-						git commit -m 'Update production files.' &&
-						git push origin master ||
-						true
+						git diff --cached --quiet || (
+							git commit -m 'Update production files.' &&
+							git push origin master
+						) || true
 					",
 				},
 			],
