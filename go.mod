@@ -1,4 +1,4 @@
-module github.com/robloxapi/build-archive
+module github.com/setup-rbxcdn/build-archive
 
 go 1.14
 
