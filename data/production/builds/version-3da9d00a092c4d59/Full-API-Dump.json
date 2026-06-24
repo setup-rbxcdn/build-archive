@@ -187155,10 +187155,7 @@
             ],
             "MemoryCategory": "Instances",
             "Name": "UIShadow",
-            "Superclass": "UIComponent",
-            "Tags": [
-                "NotBrowsable"
-            ]
+            "Superclass": "UIComponent"
         },
         {
             "Members": [
