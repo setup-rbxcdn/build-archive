@@ -44,7 +44,7 @@
 			{"Filter": "url", "Params": {"URL": "https://setup.rbxcdn.com/$GUID-API-Dump.json"}}
 		],
 		"FullAPIDump": [
-			{"Filter": "url", "Params": {"URL": "https://setup.rbxcdn.com/$GUID-Full-API-Dump.json"}}
+			{"Filter": "url", "Params": {"URL": "https://raw.githubusercontent.com/setup-rbxcdn/roblox-full-api-dumps/refs/heads/main/full-dumps/$GUID-Full-API-Dump.json"}}
 		],
 		"APIDump2": [
 			{"Filter": "url", "Params": {"URL": "https://setup.rbxcdn.com/$GUID-API-Dump-2.json"}}
